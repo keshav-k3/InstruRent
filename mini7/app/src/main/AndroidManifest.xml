@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.instrurent">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.InstruRent"
+        tools:targetApi="31">
+        <activity
+            android:name=".p2"
+            android:exported="false" />
+        <activity
+            android:name=".p1"
+            android:exported="false" />
+        <activity
+            android:name=".d2"
+            android:exported="false" />
+        <activity
+            android:name=".d1"
+            android:exported="false" />
+        <activity
+            android:name=".m2"
+            android:exported="false" />
+        <activity
+            android:name=".m1"
+            android:exported="false" />
+        <activity
+            android:name=".g2"
+            android:exported="false" />
+        <activity
+            android:name=".g1"
+            android:exported="false" />
+        <activity
+            android:name=".Guitardash"
+            android:exported="false" />
+        <activity
+            android:name=".sign"
+            android:exported="false" />
+        <activity
+            android:name=".Signnup"
+            android:exported="false" />
+        <activity
+            android:name=".Keys"
+            android:exported="false" />
+        <activity
+            android:name=".Drums"
+            android:exported="false" />
+        <activity
+            android:name=".Microphone"
+            android:exported="false" />
+        <activity
+            android:name=".Guitars"
+            android:exported="false" />
+        <activity
+            android:name=".Nav"
+            android:exported="false"
+            android:label="@string/title_activity_nav"
+            android:theme="@style/Theme.InstruRent.NoActionBar" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

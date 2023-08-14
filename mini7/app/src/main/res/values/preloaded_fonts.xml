@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aleo_bold</item>
+        <item>@font/aubrey</item>
+        <item>@font/bungee</item>
+        <item>@font/codystar_light</item>
+        <item>@font/dokdo</item>
+        <item>@font/homenaje</item>
+        <item>@font/montserrat_subrayada_bold</item>
+        <item>@font/passion_one_bold</item>
+        <item>@font/patrick_hand</item>
+        <item>@font/rowdies_light</item>
+        <item>@font/sarpanch</item>
+        <item>@font/waiting_for_the_sunrise</item>
+    </array>
+</resources>
